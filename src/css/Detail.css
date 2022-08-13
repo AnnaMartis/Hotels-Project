@@ -1,0 +1,166 @@
+/* --------------BackLink----------- */
+
+.BackLink .Container {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.BackLink .Container i {
+    color: rgb(120, 120, 186);
+    margin-right: 0.5rem;
+}
+
+.BackLink .Container span {
+    display: inline-block;
+    color: rgb(120, 120, 186);
+    text-decoration: none;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.BackLink .Container span:hover {
+    text-decoration: underline;
+}
+
+/* ------------------GalleryPart----------------- */
+
+.GalleryPart .PicPart {
+    display: flex;
+}
+
+.GalleryPart .PicPart .ImgPart {
+    width: 50%;
+}
+
+.GalleryPart .PicPart img {
+    width: 100%;
+    height: 94%;
+}
+
+.GalleryPart .PicPart .Inner {
+    width: 50%;
+}
+
+.GalleryPart .PicPart .Inner img {
+    width: 47%;
+    height: 40%;
+}
+
+/* ----------------OVERVIEW ------------ */
+
+.Overview .HeadPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Overview .HeadPart .Inner {
+    width: 50%;
+}
+
+.Overview .HeadPart .DescripPart {
+    width: 100%;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.Overview .HeadPart .Stars {
+    margin-bottom: 0.4rem;
+    color: rgb(120, 120, 186);
+}
+
+.Overview .PropPart .Content {
+    margin-top: 0.8rem;
+    height: 100%;
+    align-items: center;
+}
+
+.Overview .PropPart .Content .Box {
+    display: flex;
+    width: 100%;
+    text-align: start;
+    font-size: 0.8rem;
+    height: 1.2rem;
+}
+
+.Overview .PropPart .Content .Box .Property {
+    width: 50%;
+}
+
+.Overview .PropPart .Content .Box {
+    font-size: 0.9rem;
+    color: rgb(120, 120, 186);
+}
+
+.Overview .PropPart .Content .Box span {
+    display: inline-block;
+    color: black;
+    margin-left: 1rem;
+}
+
+.FooterPart {
+    max-width: 70%;
+    display: flex;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+
+.FooterPart .Box {
+    text-align: start;
+}
+
+.FooterPart .Box h3 {
+    margin-bottom: 0.4rem;
+}
+
+.FooterPart .Box p {
+    margin-bottom: 0.1rem;
+}
+
+/* -------------------Rooms------------------- */
+
+.Rooms .Inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rooms .Box {
+    width: 30%;
+    box-shadow: 3px 6px 10px #888888;
+    border: 0.8px solid;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.Rooms .ImgPart {
+    width: 100%;
+    /* height: 80%; */
+}
+
+.Rooms img {
+    width: 70%;
+}
+
+.Rooms .ContentPart {
+    font-size: 0.9rem;
+    text-align: start;
+    margin-left: 0.5rem;
+}
+
+.Rooms .PricePart {
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rooms .PricePart p {
+    font-weight: bold;
+}
+
+.Rooms button {
+    cursor: pointer;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+}

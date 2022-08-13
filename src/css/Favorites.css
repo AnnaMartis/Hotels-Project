@@ -1,0 +1,181 @@
+
+/* ---------------FAVORITES--------------- */
+
+/* --------------HEADPART---------- */
+
+
+.FavoritesPart .HeadPart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Heading.Close{
+    cursor: pointer;
+}
+
+
+
+.Selected {
+    color: green;
+}
+
+.multi-range-slider.custom-range-slider {
+    box-shadow: none;
+    border: none;
+}
+
+
+
+
+.FavoritesPart .Container{
+    max-width: 1050px;
+    background-color: cadetblue;
+    padding: 1.5rem;
+ 
+}
+
+
+.FavoritesPart .Container .FavHotelsPart {
+    /* display: flex; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.HotelFavorite  {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    border-radius: 0.5rem;
+    /* height: 80%; */
+    width: 100%;
+}
+
+/* IMAGE PART */
+
+.HotelFavorite .Imgpart {
+    text-align: start;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+.HotelFavorite .Imgpart img {
+   
+    width: 40%;
+    /* height: 50%; */
+   
+}
+
+.HotelFavorite .Imgpart i:hover {
+    color: grey;
+}
+
+/* CONTENT PART */
+
+.HotelFavorite  .Content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.HotelFavorite  .Content .FooterContent {
+    display: flex;
+    /* align-self: end;
+    flex-direction: column; */
+}
+
+.HotelFavorite  .Content .Innercontent .Name {
+    margin-bottom: 1rem;
+}
+
+.HotelFavorite  .Content .Innercontent .Name .Hotelname {
+    text-decoration: none;
+    text-align: start;
+    display: block;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.HotelFavorite  .Content .Innercontent .Name .Hotelplace {
+    text-decoration: none;
+    text-align: start;
+    display: block;
+    color: rgb(45, 42, 42);
+    font-size: 1rem;
+}
+
+.HotelFavorite  .Content .Innercontent .Type .Refundable {
+    text-decoration: none;
+    text-align: start;
+    display: block;
+    color: rgb(45, 42, 42);
+    font-size: 1rem;
+}
+
+.HotelFavorite  .Content .Innercontent .Paylater {
+    text-decoration: none;
+    text-align: start;
+    display: block;
+    color: rgb(45, 42, 42);
+    font-size: 0.8rem;
+}
+
+.HotelFavorite  .Content .Innercontent .Review {
+    text-align: start;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.HotelFavorite  .Content .Innercontent .Review .Bold {
+    font-weight: bold;
+}
+
+.HotelFavorite  .Content .FooterContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.HotelFavorite  .Content .FooterContent .Prom {
+    text-decoration: none;
+    background-color: red;
+    width: 4rem;
+    font-size: 1.1rem;
+    color: beige;
+    font-weight: bold;
+}
+
+.HotelFavorite  .Content .PricePart span {
+    display: block;
+}
+
+.HotelFavorite  .Content .Realprice {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+}
+
+
+.Remove{
+    cursor: pointer;
+    padding: .4rem;
+    margin-top: .5rem;
+    border-radius: .4rem;
+    background-color: green;
+    color: white;
+}
+
+
+.Remove:hover{
+    background-color: rgb(49, 149, 49);
+}

@@ -1,0 +1,66 @@
+
+/* -------------------CONFIDENCE--------------- */
+
+
+.Confidence .Outercontent{
+    font-size: .9rem;
+    text-align: start;
+}
+
+
+
+.Confidence  .Inner{
+    display: flex;
+    
+}
+
+.Confidence  .Inner .Leftside{
+    width: 55%;
+    margin-top: 1rem;
+}
+
+.Confidence  .Inner .Leftside .Box{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.Confidence  .Inner .Leftside .Box i{
+    color:  rgb(120, 120, 186);
+}
+
+.Confidence  .Inner .Leftside .Box .Content{
+    margin-left: .4rem;
+    text-align: start;
+}
+
+
+
+.Confidence  .Inner .Rightside{
+    width: 50%;
+    margin-top: .9rem;
+}
+
+.Confidence  .Inner .Rightside .Box{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.Confidence  .Inner .Rightside .Box i{
+    color:  rgb(120, 120, 186);
+}
+
+.Confidence  .Inner .Rightside .Box .Content{
+    margin-left: .4rem;
+    text-align: start;
+}
+
+
+.Confidence .Inner .Box .Content b{
+    font-size: .9rem;
+}
+
+.Confidence .Inner .Box .Content p{
+    font-size: .9rem;
+}

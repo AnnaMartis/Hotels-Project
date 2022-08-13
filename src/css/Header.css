@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+
+
+.Container{
+    width: 100%;
+    max-width: 1050px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.5rem .5rem;
+    border-bottom: .01rem solid rgba(0,0,0,.3);
+    
+}
+
+
+
+.Heading {
+    text-align: start;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+}
+
+
+.Innerheader {
+    text-align: start;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+}
+
+/* .active{
+    padding: .3rem;
+    border-radius: .4rem;
+   
+  
+   
+} */
+
+
+
+/*--------------------------HEADER-----------------------------*/
+
+.Header .Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Header .Container .Logo{
+    width: 40%;
+    display: flex;
+    align-items: center;   
+}
+
+
+.Header .Container .Logo img{
+    cursor: pointer;
+    width: 40%;
+    height: 70%;
+    margin-right: .4rem;
+}
+
+.Header .Container .Navbar a{
+    margin-left: 1.3rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(71, 71, 115);
+}
+
+.Header .Container .Navbar span{
+    margin-left: 1.3rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:  rgb(71, 71, 115);
+    cursor: pointer;
+}
+
+.Header .Container .Navbar svg {
+    font-size: 1.3rem;
+    color: rgb(71, 71, 115);
+}
+
+
+.Header .Container .Navbar a:hover{
+    text-decoration: underline;
+}
+
+.Header .Container .Navbar span:hover{
+    text-decoration: underline;
+}
+
+.Header{
+    border-bottom: .01rem solid rgba(0,0,0,.3);
+}
+
+@media(max-width: 620px) {
+    html {
+        font-size: 90%;
+      }
+    section {
+        padding: 0.5rem 3%;
+      }
+      
+    .Header .Container .Logo{
+        display: none; 
+    }
+}
+
+
+
+
+
