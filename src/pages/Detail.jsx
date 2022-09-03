@@ -5,7 +5,7 @@ import { BackLink } from '../components/Detail/BackLink';
 import { Overview } from '../components/Detail/Overview';
 import { Rooms } from '../components/Detail/Rooms';
 import { getHotelById, getRoomsById } from '../api';
-// ha bayc chnayecir el daje nayel em
+
 export const Detail = () => {
     const [hotel, setHotel] = useState();
     const [rooms, setRooms] = useState([]);
